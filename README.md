@@ -10,6 +10,45 @@ Install the dependencies by
 pip install -r requirements.txt
 ```
 
+## E2WM Benchmark
+<div align=center>
+<img src="method.png" width = "640" alt="struct" align=center />
+</div>
+<br />
+
+All constructed training data from embodied experiences and evaluation data are released in `/data/train` and `/data/eval`, respectively.
+
+<details>
+<summary> <strong> Data Statistics </strong> </summary>
+  
+- Training
+
+| Task                 | Size |
+|----------------------|------|
+| Plan Generation      | 1659 |
+| Activity Recognition | 1659 |
+| Counting             | 1000 |
+| Object Path Tracking | 1000 |
+  
+ - Evaluation
+  
+| Task                               | Size |
+|------------------------------------|------|
+| Plan Generation                    |      |
+| &nbsp; - <em>Vanilla Seen</em>     | 175  |
+| &nbsp; - <em>Vanilla Unseen</em>   | 54   |
+| &nbsp; - <em>Confusing Seen</em>   | 135  |
+| &nbsp; - <em>Confusing UnSeen</em> | 43   | 
+| Houwork QA                         | 261  |
+| Negation Housework QA              | 162  |
+| Activity Recognition QA            | 549  |
+| Activity Inference QA              | 262  |
+| Counting QA                        | 194  |
+| Object Path Tracking               | 200  |
+| Object Location QA                 | 200  |
+  
+</details>
+
 ## Train & Eval
 First download [fisher-matrix-1.3B](https://huggingface.co/jiannanx/fisher-matrix-1.3B) and [fisher-matrix-6B](https://huggingface.co/jiannanx/fisher-matrix-6B), then put them under `fisher-matrix` directory.
 
