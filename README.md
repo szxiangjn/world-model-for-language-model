@@ -50,7 +50,7 @@ All constructed training data from embodied experiences and evaluation data are 
 </details>
 
 ## Train & Eval
-First download [fisher-matrix-1.3B](https://huggingface.co/jiannanx/fisher-matrix-1.3B) and [fisher-matrix-6B](https://huggingface.co/jiannanx/fisher-matrix-6B), then put them under `fisher-matrix` directory.
+We compute the fiser matrixs on the sampled 20000 examples from [Pile](https://pile.eleuther.ai/) validation set. You can download [fisher-matrix-1.3B](https://huggingface.co/jiannanx/fisher-matrix-1.3B) and [fisher-matrix-6B](https://huggingface.co/jiannanx/fisher-matrix-6B) from huggingface model hub, and put them under `fisher-matrix` directory.
 
 Then go to the `scripts` directory where you can find all the training and evaluation scripts:
 ```
