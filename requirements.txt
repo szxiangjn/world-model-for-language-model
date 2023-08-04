@@ -8,3 +8,6 @@ rouge_score==0.1.2
 bitsandbytes==0.39.0
 wandb==0.15.3
 scipy==1.10.1
+gym==0.26.2
+sentence_transformers==2.2.2
+stable_baselines3==2.0.0
