@@ -1,5 +1,5 @@
 # World Model for Language Model
-Official code for [Language Models Meet World Models: Embodied Experiences Enhance Language Models](https://arxiv.org/abs/2305.10626). Also check our [twitter](https://twitter.com/szxiangjn/status/1659399771126370304) here.
+Official code for [Language Models Meet World Models: Embodied Experiences Enhance Language Models](https://arxiv.org/abs/2305.10626) (<b>NeurIPS 2023</b>). Also check our [twitter](https://twitter.com/szxiangjn/status/1659399771126370304) here.
 <div align=center>
 <img src="world.png" width = "640" alt="struct" align=center />
 </div>
